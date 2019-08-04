@@ -22,7 +22,7 @@ public class BGMovement : MonoBehaviour
     void Scroll()
     {
         Vector2 offset = meshRenderer.sharedMaterial.GetTextureOffset(MainTexture);
-        offset.y -= Time.deltaTime * scrollSpeed;
+        offset.y += Time.deltaTime * scrollSpeed;
         meshRenderer.sharedMaterial.SetTextureOffset(MainTexture,offset);
     }
 }
