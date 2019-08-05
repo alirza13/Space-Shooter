@@ -44,7 +44,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 751105d046a5dcb43a92e479fa12ab33, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GRAVITY_PULL: 1.5
+  GRAVITY_PULL: 5
 --- !u!135 &7196027376336698000
 SphereCollider:
   m_ObjectHideFlags: 0
